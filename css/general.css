@@ -1,0 +1,134 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width;scale: 1;}
+@viewport { width: device-width;scale: 1;} 
+
+ html {
+	
+ }
+ 
+ 
+ body {
+background:url(../img/me.png) no-repeat center center fixed;
+     -moz-background-size: cover;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+
+h1 {
+	font-family:Helvetica, sans-serif;
+	color:#fff;
+}
+
+p {
+	font-family:Helvetica, sans-serif;
+	color:#FFF;
+	font-size: 0.9em;
+}
+
+figure {
+	margin: 0;
+}
+
+li {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	display:inline-block;
+	padding: 5px;
+	margin:0;
+	
+	
+}
+
+ul {
+	list-style-type:none;
+	padding: 0;
+	margin:0;
+	
+	
+}
+
+a,
+a:link, 
+a:visited {
+	text-decoration: none;
+	color:#fff;
+}
+
+ a:hover,
+ a:focus,
+ a:active {
+	
+	color:#CCC;
+}
+
+
+@media only screen and (min-width: 15em) {
+
+p {
+	font-size: 1em;
+	
+}
+	
+}
+@media only screen and (min-width: 18em) {
+
+p {
+	font-size: 1.1em;
+	
+}
+	
+}
+
+@media only screen and (min-width: 30em) {
+p {
+	padding-right: 50%
+}
+	
+}
+
+
+@media only screen and (min-width: 48em) {
+p {
+	padding-right: 65%
+}
+	
+}
+
+@media only screen and (min-width: 62em) {
+p {
+	padding-right: 70%;
+	padding-left: 1%;
+	font-size:1.2em;
+}
+h1{
+	font-size: 2.5em;
+	padding-left:1%;
+	padding-right:75%;
+}
+
+ul{
+	pdding-left:1%;
+}
+
+li{
+	padding-left:1%;
+}
+	
+}
+
+@media only screen and (min-width: 110em) {
+	h1{
+		font-size:4em;
+		padding-right: 80%;
+		
+	}
+	p{
+		font-size:1.5em;
+	}
+
+}
+	
