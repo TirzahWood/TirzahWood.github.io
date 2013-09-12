@@ -1,4 +1,4 @@
-# TirzahWood.github.io
+# TirzahWood Portfolio
 
 
 My amazing portfolio website
