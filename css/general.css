@@ -65,6 +65,12 @@ figure {
 	width: 100%;
 }
 
+.logo {
+	float: left;
+	padding-right: 4px;
+	
+}
+
 a,
 a:link, 
 a:visited {
@@ -86,6 +92,10 @@ p {
 	font-size: 1em;
 }
 
+.flex-img {
+	padding: 4px;
+}
+
 
 @media only screen and (min-width: 18em) {
 
@@ -100,6 +110,17 @@ p {
 p {
 	padding-right: 50%
 }
+
+figure {
+	padding-left: 7px;
+}
+
+h1 {
+	padding-left: 7px;
+}
+
+ul{
+	padding-left: 7px;
 	
 }
 
