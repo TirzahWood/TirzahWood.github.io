@@ -56,6 +56,15 @@ div {
 	list-style-type:none;
 }
 
+figure {
+	display:inline-block;
+	margin: 2px;
+}
+
+.flex-img {
+	width: 100%;
+}
+
 a,
 a:link, 
 a:visited {
@@ -75,10 +84,9 @@ a:visited {
 
 p {
 	font-size: 1em;
-	
 }
-	
-}
+
+
 @media only screen and (min-width: 18em) {
 
 p {
