@@ -114,6 +114,7 @@ p {
 }
 
 @media only screen and (min-width: 30em) {
+
 p {
 	padding-right: 50%
 }
@@ -140,8 +141,6 @@ p {
 	padding-right: 65%
 }
 
-
-	
 }
 
 @media only screen and (min-width: 62em) {
@@ -150,6 +149,7 @@ p {
 	padding-left: 1%;
 	font-size:1.2em;
 }
+
 h1{
 	font-size: 2.5em;
 	padding-left:1%;
@@ -160,6 +160,7 @@ ul{
 	pdding-left:1%;
 }
 
+
 li{
 	padding-left:1%;
 }
@@ -167,12 +168,13 @@ li{
 }
 
 @media only screen and (min-width: 110em) {
-	h1{
-		font-size:4em;
-		padding-right: 75%;
+
+h1{
+	font-size:4em;
+	padding-right: 75%;
 	}
 	
-	p {
+p {
 	padding-right: 70%;
 	padding-left: 1%;
 	font-size:1.5em;
